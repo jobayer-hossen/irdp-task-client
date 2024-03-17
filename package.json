@@ -16,6 +16,7 @@
     "react-custom-scroll": "^7.0.0",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
+    "sharp": "^0.33.2",
     "simplebar-react": "^3.2.4"
   },
   "devDependencies": {

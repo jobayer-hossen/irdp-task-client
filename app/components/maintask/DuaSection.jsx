@@ -138,7 +138,7 @@ const DuaSection = () => {
                                         height={40}
                                     />
                                     <div>
-                                        <h1 className='text-sm font-semibold text-[#1FA45B] '>Dua's Importance</h1>
+                                        <h1 className='text-sm font-semibold text-[#1FA45B] '>Duas Importance</h1>
                                         <h1 className='text-xs text-[#7E7E7E] '>Subcategory: 7</h1>
                                     </div>
                                 </div>
@@ -147,7 +147,7 @@ const DuaSection = () => {
                                     <h1 className='text-xs text-[#7E7E7E] '>Duas</h1>
                                 </div>
                             </div>
-                            {subCat?.map((allSubCat, i) => <div onClick={() => handleDuaBySubCat(allSubCat?.subcat_id)} className='text-black cursor-pointer '>
+                            {subCat?.map((allSubCat, i) => <div key={i} onClick={() => handleDuaBySubCat(allSubCat?.subcat_id)} className='text-black cursor-pointer '>
                                 {allSubCat?.subcat_name_en}
                             </div>)}
                             <div onClick={() => handleSetCatId(2)} className='flex flex-row items-center p-2 bg-[#E8F0F5] gap-3 rounded cursor-pointer justify-between'>
@@ -159,7 +159,7 @@ const DuaSection = () => {
                                         height={40}
                                     />
                                     <div>
-                                        <h1 className='text-sm font-semibold text-[#1FA45B] '>Dua's Excellence</h1>
+                                        <h1 className='text-sm font-semibold text-[#1FA45B] '>Duas Excellence</h1>
                                         <h1 className='text-xs text-[#7E7E7E] '>Subcategory: 1</h1>
                                     </div>
                                 </div>
